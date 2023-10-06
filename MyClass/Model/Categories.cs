@@ -15,6 +15,7 @@ namespace MyClass.Model
         public int Id { get; set; }
 
         [Required]
+<<<<<<< HEAD
         [Display(Name = "Tên loại SP")]
         public string Name { get; set; }
         [Display(Name = "Tên rút gọn")]
@@ -40,6 +41,30 @@ namespace MyClass.Model
         [Display(Name = "Ngày cập nhật")]
         public DateTime UpdateAt { get; set; }
         [Display(Name = "Trạng thái")]
+=======
+        public string Name { get; set; }
+
+        public string Slug { get; set; }
+
+        public int? ParentId { get; set; }
+
+        public int? Order { get; set; }
+
+        [Required]
+        public string MetaDesc { get; set; }
+
+        [Required]
+        public string MetaKey { get; set; }
+
+        public int CreateBy { get; set; }
+
+        public DateTime CreateAt { get; set; }
+
+        public int UpdateBy { get; set; }
+
+        public DateTime UpdateAt { get; set; }
+
+>>>>>>> 6fdddaac5faa2232e986e17f82f79ae9b2468c43
         public int Status { get; set; }
     }
 }

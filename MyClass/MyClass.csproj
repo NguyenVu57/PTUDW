@@ -48,7 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="DAO\CategoriesDAO.cs" />
+=======
+>>>>>>> 6fdddaac5faa2232e986e17f82f79ae9b2468c43
     <Compile Include="Model\Categories.cs" />
     <Compile Include="Model\Contact.cs" />
     <Compile Include="Model\Links.cs" />
@@ -77,6 +80,12 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup />
+=======
+  <ItemGroup>
+    <Folder Include="DAO\" />
+  </ItemGroup>
+>>>>>>> 6fdddaac5faa2232e986e17f82f79ae9b2468c43
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
